@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2>Medical Form</h2>
+            <form id="medicalForm">
+                <img src="" alt="">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    
+                </select>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="diseases">Chronic Diseases:</label>
+                <select id="diseases" name="diseases" multiple>
+                    <option value="heart-Diabetes">heart Disease</option>
+                    <option value="hypertension">Hypertension</option>
+                    <option value="asthma">Asthma</option>
+                    <option value="cancer">cancer</option>
+                    <option value="no">no</option>
+                    <!-- Add more diseases here -->
+                </select>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+            <div id="card"  style="border: 1px solid #ccc; padding: 10px; border-radius: 10px; background-color: greenyellow; text-align: center; padding-bottom: 20px;">
+               
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Medical Form</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
