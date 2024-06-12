@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: rgb(95, 35, 35);
     color: #fff;
     padding: 10px 0;
 }
@@ -55,7 +55,7 @@ form button {
 }
 
 footer {
-    background-color: red;
+    background-color: rgb(79, 24, 24);
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -92,4 +92,8 @@ footer {
 
 .card p {
     margin: 5px 0;
+}
+.cardd{
+
+    border: 1px solid #ccc; padding: 10px; border-radius: 10px; background-color: rgb(66, 72, 56); text-align: center; padding-bottom: 20px;
 }

@@ -35,21 +35,18 @@ cartItems.forEach(function(patient) {
     let patientDetails = `
     <img src="/dddddddddddddddddddddddddddddddddddddddd.png" alt="">
         <h2>${patient.fullName}</h2>
-        <p><strong>Password:</strong> ${patient.password}</p>
-        <p><strong>Date of Birth:</strong> ${patient.dob}</p>
-        <p><strong>Gender:</strong> ${patient.gender}</p>
-        <p><strong>Chronic Diseases:</strong> ${patient.chronicDiseases}</p>
-        <p><strong>Phone Number:</strong> ${patient.phoneNumber}</p>
+        <p>Password: ${patient.password}</p>
+        <p>Date of Birth: ${patient.dob}</p>
+        <p>Gender: ${patient.gender}</p>
+        <p>Chronic Diseases: ${patient.chronicDiseases}</p>
+        <p>Phone Number: ${patient.phoneNumber}</p>
     `;
     z.innerHTML = patientDetails;
     mycard.appendChild(z);
+  
+
 });
 });
-
-
-
-
-
 
 
 
